@@ -1,4 +1,0 @@
-gpu
-main
-test
-verify
