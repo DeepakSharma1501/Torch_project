@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: torch-project
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: gh>=0.0.4
+Requires-Dist: google>=3.0.0
+Requires-Dist: google-genai>=2.18.1
+Requires-Dist: numpy>=2.5.2
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: jupyter>=1.0
+Requires-Dist: scikit-learn>=1.4
+Provides-Extra: torch
+Requires-Dist: torch>=2.3; extra == "torch"
+Requires-Dist: torchvision>=0.18; extra == "torch"
+Provides-Extra: llm
+Requires-Dist: anthropic>=0.39; extra == "llm"
+Requires-Dist: openai>=1.50; extra == "llm"
